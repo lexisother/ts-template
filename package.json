@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
     "format": "prettier --write **/*"
   },
